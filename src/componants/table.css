@@ -1,0 +1,29 @@
+
+.drawdown-table {
+    width: 50%;
+    border-collapse: collapse;
+    border-radius: 50px;
+  }
+  
+  .drawdown-table th,
+  .drawdown-table td {
+    padding: 8px;
+    border: 1px solid #000000;
+    text-align: left;
+    
+  }
+  
+  
+  .drawdown-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .drawdown-table tbody tr:nth-child(even) {
+    background-color: #ffffff;
+  }
+  
+  .drawdown-table tbody tr:hover {
+    background-color: #ff000069;
+  }
+  
